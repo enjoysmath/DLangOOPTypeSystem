@@ -1,0 +1,303 @@
+<DProject>
+  <ProjectGuid>{F1324015-D53A-427E-836D-C8702BE95503}</ProjectGuid>
+  <Config name="debug" platform="x64">
+    <symdebug>1</symdebug>
+    <optimize>0</optimize>
+    <useInline>0</useInline>
+    <release>0</release>
+    <lib>1</lib>
+    <exefile>lib\pegged.lib</exefile>
+    <imppath>"..\..\..\..\..\..\AppData\Local\dub\packages\pegged\0.4.9\pegged" </imppath>
+    <fileImppath></fileImppath>
+    <program>$(DMDInstallDir)windows\bin\dmd.exe</program>
+    <additionalOptions>-m64</additionalOptions>
+    <versionids>Have_pegged</versionids>
+    <useUnitTests>0</useUnitTests>
+    <betterC>0</betterC>
+    <obj>0</obj>
+    <link>0</link>
+    <subsystem>0</subsystem>
+    <multiobj>0</multiobj>
+    <singleFileCompilation>2</singleFileCompilation>
+    <mscoff>0</mscoff>    <oneobj>0</oneobj>
+    <trace>0</trace>
+    <quiet>0</quiet>
+    <verbose>0</verbose>
+    <vtls>0</vtls>
+    <cpu>0</cpu>
+    <isX86_64>1</isX86_64>
+    <isLinux>0</isLinux>
+    <isOSX>0</isOSX>
+    <isWindows>0</isWindows>
+    <isFreeBSD>0</isFreeBSD>
+    <isSolaris>0</isSolaris>
+    <isDragonFlyBSD>0</isDragonFlyBSD>
+    <scheduler>0</scheduler>
+    <useDeprecated>0</useDeprecated>
+    <useAssert>0</useAssert>
+    <useInvariants>0</useInvariants>
+    <useIn>0</useIn>
+    <useOut>0</useOut>
+    <useArrayBounds>0</useArrayBounds>
+    <noboundscheck>0</noboundscheck>
+    <useSwitchError>0</useSwitchError>
+    <preservePaths>1</preservePaths>
+    <warnings>1</warnings>
+    <infowarnings>0</infowarnings>
+    <checkProperty>0</checkProperty>
+    <genStackFrame>0</genStackFrame>
+    <pic>0</pic>
+    <cov>0</cov>
+    <nofloat>0</nofloat>
+    <Dversion>2</Dversion>
+    <ignoreUnsupportedPragmas>1</ignoreUnsupportedPragmas>
+    <compiler>0</compiler>
+    <otherDMD>0</otherDMD>
+    <outdir>lib\</outdir>
+    <objdir>obj/debug/dummy/dummy/dummy/dummy/dummy/dummy/pegged</objdir>
+    <objname />
+    <libname />
+    <doDocComments>0</doDocComments>
+    <docdir />
+    <docname />
+    <modules_ddoc />
+    <ddocfiles />
+    <doHdrGeneration>0</doHdrGeneration>
+    <hdrdir />
+    <hdrname />
+    <doXGeneration>1</doXGeneration>
+    <xfilename>$(IntDir)\$(TargetName).json</xfilename>
+    <debuglevel>0</debuglevel>
+    <versionlevel>0</versionlevel>
+    <debugids />
+    <dump_source>0</dump_source>
+    <mapverbosity>0</mapverbosity>
+    <createImplib>0</createImplib>
+    <defaultlibname />
+    <debuglibname />
+    <moduleDepsFile />
+    <run>0</run>
+    <runargs />
+    <runCv2pdb>1</runCv2pdb>
+    <pathCv2pdb>$(VisualDInstallDir)cv2pdb\cv2pdb.exe</pathCv2pdb>
+    <cv2pdbPre2043>0</cv2pdbPre2043>
+    <cv2pdbNoDemangle>0</cv2pdbNoDemangle>
+    <cv2pdbEnumType>0</cv2pdbEnumType>
+    <cv2pdbOptions />
+    <objfiles />
+    <linkswitches />
+    <libpaths />
+    <deffile />
+    <resfile />
+    <debugworkingdir>..</debugworkingdir>
+    <preBuildCommand />
+    <postBuildCommand />
+    <filesToClean>*.obj;*.cmd;*.build;*.dep</filesToClean>
+  </Config>
+  <Folder name="pegged">
+    <Folder name="pegged">
+    <Folder name="examples">
+    <Folder name="DConf2017">
+      <File path="..\..\..\..\..\..\AppData\Local\dub\packages\pegged\0.4.9\pegged\examples\DConf2017\arithmetic.d" tool="None" />
+      <File path="..\..\..\..\..\..\AppData\Local\dub\packages\pegged\0.4.9\pegged\examples\DConf2017\left_recursion_naive.d" tool="None" />
+      <File path="..\..\..\..\..\..\AppData\Local\dub\packages\pegged\0.4.9\pegged\examples\DConf2017\left_recursion_proper.d" tool="None" />
+      <File path="..\..\..\..\..\..\AppData\Local\dub\packages\pegged\0.4.9\pegged\examples\DConf2017\recursion.d" tool="None" />
+    </Folder>
+    <Folder name="PEG">
+    <Folder name="src">
+    <Folder name="pegged">
+    <Folder name="examples">
+      <File path="..\..\..\..\..\..\AppData\Local\dub\packages\pegged\0.4.9\pegged\examples\PEG\src\pegged\examples\PEG.d" tool="None" />
+    </Folder>
+    </Folder>
+    </Folder>
+    </Folder>
+    <Folder name="arithmetic">
+    <Folder name="src">
+    <Folder name="pegged">
+    <Folder name="examples">
+      <File path="..\..\..\..\..\..\AppData\Local\dub\packages\pegged\0.4.9\pegged\examples\arithmetic\src\pegged\examples\arithmetic.d" tool="None" />
+    </Folder>
+    </Folder>
+    </Folder>
+    </Folder>
+    <Folder name="c">
+    <Folder name="src">
+    <Folder name="pegged">
+    <Folder name="examples">
+      <File path="..\..\..\..\..\..\AppData\Local\dub\packages\pegged\0.4.9\pegged\examples\c\src\pegged\examples\c.d" tool="None" />
+      <File path="..\..\..\..\..\..\AppData\Local\dub\packages\pegged\0.4.9\pegged\examples\c\src\pegged\examples\cparser.d" tool="None" />
+    </Folder>
+    </Folder>
+    </Folder>
+    </Folder>
+    <Folder name="composition">
+    <Folder name="src">
+    <Folder name="pegged">
+    <Folder name="examples">
+      <File path="..\..\..\..\..\..\AppData\Local\dub\packages\pegged\0.4.9\pegged\examples\composition\src\pegged\examples\composition.d" tool="None" />
+    </Folder>
+    </Folder>
+    </Folder>
+    </Folder>
+    <Folder name="csv">
+    <Folder name="src">
+    <Folder name="pegged">
+    <Folder name="examples">
+      <File path="..\..\..\..\..\..\AppData\Local\dub\packages\pegged\0.4.9\pegged\examples\csv\src\pegged\examples\csv.d" tool="None" />
+    </Folder>
+    </Folder>
+    </Folder>
+    </Folder>
+    <Folder name="dgrammar">
+    <Folder name="src">
+    <Folder name="pegged">
+    <Folder name="examples">
+      <File path="..\..\..\..\..\..\AppData\Local\dub\packages\pegged\0.4.9\pegged\examples\dgrammar\src\pegged\examples\dgrammar.d" tool="None" />
+    </Folder>
+    </Folder>
+    </Folder>
+    </Folder>
+    <Folder name="extended_pascal">
+    <Folder name="source">
+      <File path="..\..\..\..\..\..\AppData\Local\dub\packages\pegged\0.4.9\pegged\examples\extended_pascal\source\app.d" tool="None" />
+      <File path="..\..\..\..\..\..\AppData\Local\dub\packages\pegged\0.4.9\pegged\examples\extended_pascal\source\epgrammar.d" tool="None" />
+      <File path="..\..\..\..\..\..\AppData\Local\dub\packages\pegged\0.4.9\pegged\examples\extended_pascal\source\make.d" tool="None" />
+    </Folder>
+    </Folder>
+    <Folder name="json">
+    <Folder name="src">
+    <Folder name="pegged">
+    <Folder name="examples">
+      <File path="..\..\..\..\..\..\AppData\Local\dub\packages\pegged\0.4.9\pegged\examples\json\src\pegged\examples\json.d" tool="None" />
+    </Folder>
+    </Folder>
+    </Folder>
+    </Folder>
+    <Folder name="markdown">
+    <Folder name="src">
+    <Folder name="pegged">
+    <Folder name="examples">
+      <File path="..\..\..\..\..\..\AppData\Local\dub\packages\pegged\0.4.9\pegged\examples\markdown\src\pegged\examples\markdown.d" tool="None" />
+    </Folder>
+    </Folder>
+    </Folder>
+    </Folder>
+    <Folder name="misc">
+    <Folder name="src">
+    <Folder name="pegged">
+    <Folder name="examples">
+      <File path="..\..\..\..\..\..\AppData\Local\dub\packages\pegged\0.4.9\pegged\examples\misc\src\pegged\examples\constraints.d" tool="None" />
+      <File path="..\..\..\..\..\..\AppData\Local\dub\packages\pegged\0.4.9\pegged\examples\misc\src\pegged\examples\pattern.d" tool="None" />
+      <File path="..\..\..\..\..\..\AppData\Local\dub\packages\pegged\0.4.9\pegged\examples\misc\src\pegged\examples\testergrammar.d" tool="None" />
+    </Folder>
+    </Folder>
+    </Folder>
+    </Folder>
+    <Folder name="numbers">
+    <Folder name="src">
+    <Folder name="pegged">
+    <Folder name="examples">
+      <File path="..\..\..\..\..\..\AppData\Local\dub\packages\pegged\0.4.9\pegged\examples\numbers\src\pegged\examples\numbers.d" tool="None" />
+    </Folder>
+    </Folder>
+    </Folder>
+    </Folder>
+    <Folder name="oberon2">
+    <Folder name="src">
+    <Folder name="pegged">
+    <Folder name="examples">
+      <File path="..\..\..\..\..\..\AppData\Local\dub\packages\pegged\0.4.9\pegged\examples\oberon2\src\pegged\examples\oberon2.d" tool="None" />
+    </Folder>
+    </Folder>
+    </Folder>
+    </Folder>
+    <Folder name="parameterized">
+    <Folder name="src">
+    <Folder name="pegged">
+    <Folder name="examples">
+      <File path="..\..\..\..\..\..\AppData\Local\dub\packages\pegged\0.4.9\pegged\examples\parameterized\src\pegged\examples\parameterized.d" tool="None" />
+    </Folder>
+    </Folder>
+    </Folder>
+    </Folder>
+    <Folder name="peggedgrammar">
+    <Folder name="src">
+    <Folder name="pegged">
+    <Folder name="examples">
+      <File path="..\..\..\..\..\..\AppData\Local\dub\packages\pegged\0.4.9\pegged\examples\peggedgrammar\src\pegged\examples\peggedgrammar.d" tool="None" />
+    </Folder>
+    </Folder>
+    </Folder>
+    </Folder>
+    <Folder name="python">
+    <Folder name="src">
+    <Folder name="pegged">
+    <Folder name="examples">
+      <File path="..\..\..\..\..\..\AppData\Local\dub\packages\pegged\0.4.9\pegged\examples\python\src\pegged\examples\python.d" tool="None" />
+    </Folder>
+    </Folder>
+    </Folder>
+    </Folder>
+    <Folder name="simple_arithmetic">
+    <Folder name="src">
+    <Folder name="pegged">
+    <Folder name="examples">
+      <File path="..\..\..\..\..\..\AppData\Local\dub\packages\pegged\0.4.9\pegged\examples\simple_arithmetic\src\pegged\examples\simple_arithmetic.d" tool="None" />
+    </Folder>
+    </Folder>
+    </Folder>
+    </Folder>
+    <Folder name="strings">
+    <Folder name="src">
+    <Folder name="pegged">
+    <Folder name="examples">
+      <File path="..\..\..\..\..\..\AppData\Local\dub\packages\pegged\0.4.9\pegged\examples\strings\src\pegged\examples\strings.d" tool="None" />
+    </Folder>
+    </Folder>
+    </Folder>
+    </Folder>
+    <Folder name="xml">
+    <Folder name="src">
+    <Folder name="pegged">
+    <Folder name="examples">
+      <File path="..\..\..\..\..\..\AppData\Local\dub\packages\pegged\0.4.9\pegged\examples\xml\src\pegged\examples\xml.d" tool="None" />
+      <File path="..\..\..\..\..\..\AppData\Local\dub\packages\pegged\0.4.9\pegged\examples\xml\src\pegged\examples\xml2.d" tool="None" />
+    </Folder>
+    </Folder>
+    </Folder>
+    </Folder>
+    </Folder>
+    <Folder name="pegged">
+    <Folder name="dev">
+      <File path="..\..\..\..\..\..\AppData\Local\dub\packages\pegged\0.4.9\pegged\pegged\dev\regenerate.d" tool="None" />
+      <File path="..\..\..\..\..\..\AppData\Local\dub\packages\pegged\0.4.9\pegged\pegged\dev\test.d" tool="None" />
+    </Folder>
+    <Folder name="dynamic">
+      <File path="..\..\..\..\..\..\AppData\Local\dub\packages\pegged\0.4.9\pegged\pegged\dynamic\grammar.d" />
+      <File path="..\..\..\..\..\..\AppData\Local\dub\packages\pegged\0.4.9\pegged\pegged\dynamic\peg.d" />
+    </Folder>
+    <Folder name="performancetest">
+    <Folder name="cursive">
+      <File path="..\..\..\..\..\..\AppData\Local\dub\packages\pegged\0.4.9\pegged\pegged\performancetest\cursive\generator.d" tool="None" />
+      <File path="..\..\..\..\..\..\AppData\Local\dub\packages\pegged\0.4.9\pegged\pegged\performancetest\cursive\parser.d" tool="None" />
+      <File path="..\..\..\..\..\..\AppData\Local\dub\packages\pegged\0.4.9\pegged\pegged\performancetest\cursive\reader.d" tool="None" />
+    </Folder>
+    </Folder>
+    <Folder name="test">
+      <File path="..\..\..\..\..\..\AppData\Local\dub\packages\pegged\0.4.9\pegged\pegged\test\tester.d" tool="None" />
+    </Folder>
+    <Folder name="tester">
+      <File path="..\..\..\..\..\..\AppData\Local\dub\packages\pegged\0.4.9\pegged\pegged\tester\grammartester.d" />
+      <File path="..\..\..\..\..\..\AppData\Local\dub\packages\pegged\0.4.9\pegged\pegged\tester\testerparser.d" />
+    </Folder>
+      <File path="..\..\..\..\..\..\AppData\Local\dub\packages\pegged\0.4.9\pegged\pegged\grammar.d" />
+      <File path="..\..\..\..\..\..\AppData\Local\dub\packages\pegged\0.4.9\pegged\pegged\introspection.d" />
+      <File path="..\..\..\..\..\..\AppData\Local\dub\packages\pegged\0.4.9\pegged\pegged\parser.d" />
+      <File path="..\..\..\..\..\..\AppData\Local\dub\packages\pegged\0.4.9\pegged\pegged\peg.d" />
+      <File path="..\..\..\..\..\..\AppData\Local\dub\packages\pegged\0.4.9\pegged\pegged\tohtml.d" />
+    </Folder>
+      <File path="..\..\..\..\..\..\AppData\Local\dub\packages\pegged\0.4.9\pegged\dub.json" tool="None" />
+    </Folder>
+  </Folder>
+</DProject>

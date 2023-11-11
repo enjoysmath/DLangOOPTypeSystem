@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{C2655747-77D5-400C-8E3E-70CC90835D85}") = "dlang_oop_type_system", ".dub/dlang_oop_type_system.visualdproj", "{79F6D102-5C98-4F26-95ED-FEEF8E4B1E62}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F1324015-D53A-427E-836D-C8702BE95503} = {F1324015-D53A-427E-836D-C8702BE95503}
+	EndProjectSection
+EndProject
+Project("{C2655747-77D5-400C-8E3E-70CC90835D85}") = "pegged", ".dub/pegged.visualdproj", "{F1324015-D53A-427E-836D-C8702BE95503}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		debug|x64 = debug|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{79F6D102-5C98-4F26-95ED-FEEF8E4B1E62}.debug|x64.ActiveCfg = debug|x64
+		{79F6D102-5C98-4F26-95ED-FEEF8E4B1E62}.debug|x64.Build.0 = debug|x64
+		{F1324015-D53A-427E-836D-C8702BE95503}.debug|x64.ActiveCfg = debug|x64
+		{F1324015-D53A-427E-836D-C8702BE95503}.debug|x64.Build.0 = debug|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

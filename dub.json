@@ -1,0 +1,12 @@
+{
+	"authors": [
+		"enjoysmath@gmail.com"
+	],
+	"copyright": "Copyright © 2023, enjoysmath@gmail.com",
+	"dependencies": {
+		"pegged": "~>0.4.9"
+	},
+	"description": "(TODO) Fill in Dub description.",
+	"license": "proprietary",
+	"name": "dlang_oop_type_system"
+}
