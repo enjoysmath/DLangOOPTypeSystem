@@ -223,5 +223,3 @@ uint evaluateBoolNatLang(ParseTree parseTree)
 //    assert(interpreter("2*3*3 - 3*3 + 3*4") == 21.0);
 //    assert(interpreter("2 * 3 * 3 - 3 * (3 + 3 * 4)") == -27.0);
 //}
-
-
