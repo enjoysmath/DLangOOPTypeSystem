@@ -1,19 +1,18 @@
 import std.stdio;
-import pierce_ex1;
-import pierce_ex2;
+import pierce_ex3;
+
 
 
 
 void main()
-{
-	
-	while (true)
+{	
+    while (true)
    {
-		auto i = readln();
-		auto parseTree = BoolNatLangForTyping(i);
-		auto outputTree = typingOfBoolNatLang(parseTree);
+      auto i = readln();
+      auto parseTree = BoolNatLangForTyping(i);
+      auto output = evaluateBoolNatLangForTyping(parseTree);
 
-		writeln(outputTree);
+      writeln(output);
    }
 
 }

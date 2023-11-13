@@ -86,8 +86,8 @@ uint evaluateBoolNatLang(ParseTree parseTree)
       default:
          res = -1;
          break;
-   }
 
+   }
    return res;
 }
 
