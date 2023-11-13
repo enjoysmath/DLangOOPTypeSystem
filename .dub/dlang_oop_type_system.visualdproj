@@ -131,7 +131,9 @@
     <File path="..\source\app.d" />
     <File path="..\source\pierce_ex1.d" />
     <File path="..\source\pierce_ex2.d" />
-    <File path="..\source\pierce_ex3.d" />
+    <File path="..\source\grammar_ex3.d" />
+    <File path="..\source\term.d" />
+    <File path="..\source\var.d" />
    </Folder>
    <File path="..\dub.json" tool="None" />
   </Folder>
